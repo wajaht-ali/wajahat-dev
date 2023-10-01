@@ -1,0 +1,86 @@
+@import "../styles/Utilities.scss";
+
+.header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: background-color .3s ease-in-out;
+    // border: 2px solid #333;
+
+    >.logo {
+        color: white;
+        background-color: #333;
+
+        &:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        h2 {
+            padding: 15px;
+            font: bold 2rem "Inter";
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    >.nav-items {
+        width: 50%;
+
+        ul {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                font: bold .8rem "Inter";
+                text-transform: uppercase;
+                padding: 8px 5px;
+                color: white;
+                transition: border-bottom .3s all ease-in-out;
+                transform-origin: left;
+
+                &:hover {
+                    border-bottom: 2px solid #fff;
+                    color: #333;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.scrolled {
+    background-color: #333;
+
+    >.logo {
+        background-color: #fff;
+        h2 {
+            color: #333;
+        }
+
+        &:hover h2{
+            color: $primary-color;
+        }
+    }
+
+    .nav-items {
+
+        ul {
+            li:hover {
+                color: #fff;
+            }
+        }
+    }
+}
