@@ -8,6 +8,11 @@ $primary-color: #1289A7;
 $background: rgb(60, 170, 208);
 $bg-gradient: linear-gradient(288deg, rgba(60, 170, 208, 1) 24%, rgba(60, 238, 146, 1) 84%);
 
+//2nd gradient
+$bg-primary: rgb(42,245,229);
+$bg-gradient-primary: linear-gradient(288deg, rgba(42,245,229,1) 27%, rgba(80,104,235,1) 75%);
+
+
 * {
     padding: 0px;
     margin: 0px;

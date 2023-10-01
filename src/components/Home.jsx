@@ -2,6 +2,7 @@ import "../styles/Home.scss";
 import img from "../assets/profile_img.jpg";
 import TypeWriter from "typewriter-effect";
 import { AiOutlineMail } from "react-icons/ai";
+import { FaGithubSquare, FaLinkedin, FaSquareTwitter, FaInstagramSquare } from "react-icons/fa";
 import { MdOutlineLocationCity } from "react-icons/md"
 
 const Home = () => {
@@ -38,6 +39,14 @@ const Home = () => {
                         <address>
                             Haripur, 22620, K.P.K, Pakistan.
                         </address>
+                    </div>
+
+                    <div className="social">
+                        <FaGithubSquare />
+                        <FaLinkedin />
+                        < FaSquareTwitter />
+                        < FaInstagramSquare />
+
                     </div>
 
                 </div>
