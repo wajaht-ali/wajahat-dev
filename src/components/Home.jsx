@@ -1,9 +1,10 @@
 import "../styles/Home.scss";
 import img from "../assets/profile_img.jpg";
 import TypeWriter from "typewriter-effect";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaGithubSquare, FaLinkedin, FaSquareTwitter, FaInstagramSquare } from "react-icons/fa";
 import { MdOutlineLocationCity } from "react-icons/md"
+import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -42,11 +43,10 @@ const Home = () => {
                     </div>
 
                     <div className="social">
-                        <FaGithubSquare />
-                        <FaLinkedin />
-                        < FaSquareTwitter />
+                        <Link to={"https://github.com/wajaht-ali/"}><FaGithubSquare /></Link>
+                        <Link to={"https://linkedin.com/in/wajhat-ali/"}><FaLinkedin /></Link>
+                        < FaTwitterSquare />
                         < FaInstagramSquare />
-
                     </div>
 
                 </div>
