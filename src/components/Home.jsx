@@ -3,7 +3,7 @@ import img from "../assets/profile_img.jpg";
 import TypeWriter from "typewriter-effect";
 import { MdOutlineLocationCity } from "react-icons/md"
 import { AiOutlineMail } from "react-icons/ai";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
 
 const Home = () => {
@@ -43,18 +43,16 @@ const Home = () => {
                     </div>
 
                     <div className="social">
-                        <NavLink to="https://github.com/wajaht-ali/" target="_blank"><FaGithubSquare /></NavLink>
+                        <Link to="https://github.com/wajaht-ali/" target="_blank"><FaGithubSquare /></Link>
 
-                        <NavLink to="https://linkedin.com/in/wajhat-ali/" target="_blank"><FaLinkedin /></NavLink>
+                        <Link to="https://linkedin.com/in/wajhat-ali/"><FaLinkedin /></Link>
 
-                        <NavLink to="https://twitter.com/ChWajahtali" target="_blank">< FaTwitterSquare /></NavLink>
+                        <Link to="https://twitter.com/ChWajahtali" target="_blank">< FaTwitterSquare /></Link>
 
-                        <NavLink to="https://www.instagram.com/wajaht_alee/" target="_blank">< FaInstagramSquare /></NavLink>
-
-
-
-
+                        <Link to="https://www.instagram.com/wajaht_alee/" target="_blank">< FaInstagramSquare /></Link>
                     </div>
+
+
 
                 </div>
             </div>

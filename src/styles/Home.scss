@@ -84,7 +84,7 @@
                 }
             }
 
-            .social {
+            >.social {
                 width: 80%;
                 height: 20%;
                 display: flex;
@@ -93,10 +93,12 @@
                 align-items: center;
                 // border: 2px solid #333;
 
-                svg {
-                    color: $background;
-                    opacity: .6;
-                    font-size: 2.5rem;
+                >a {
+                    svg {
+                        color: $background;
+                        opacity: .6;
+                        font-size: 2.5rem;
+                    }
 
                     &:hover {
                         color: #333;

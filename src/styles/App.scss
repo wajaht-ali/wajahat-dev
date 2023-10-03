@@ -1,5 +1,8 @@
 @import "../styles/Utilities.scss";
 
-.App .main{
-    background: $bg-gradient-primary;
+.App {
+    position: relative;
+    .main {
+        background: $bg-gradient-primary;
+    }
 }

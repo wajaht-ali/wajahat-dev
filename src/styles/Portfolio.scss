@@ -1,6 +1,57 @@
 @import "../styles/Utilities.scss";
 
 .portfolio {
-    height: 50vh;
+    height: 90vh;
     width: 100%;
+    position: relative;
+    // border: 2px solid #333;
+
+    >main {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        // border: 2px solid #333;
+
+        .box {
+            h2 {
+                font: bold 2rem "Open Sans";
+            }
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            border-radius: 8px;
+            height: 65%;
+            width: 45%;
+            background-color: rgb(255, 249, 249);
+            box-shadow: 2px 2px 15px #b7b1b1;
+        }
+
+        .about {
+            p {
+                font: 400 14px "Work Sans";
+            }
+        }
+
+        .skills {
+            .icons {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                svg {
+                    // color: $background;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 }

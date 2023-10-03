@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Home />
         </div>
         <Portfolio />
+        <Education />
       </BrowserRouter>
     </div>
   );

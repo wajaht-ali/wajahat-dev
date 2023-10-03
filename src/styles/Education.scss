@@ -1,0 +1,32 @@
+@import "../styles/Utilities.scss";
+
+.education {
+    height: 150vh;
+    width: 100%;
+    border: 2px solid #333;
+    background: $bg-gradient-primary;
+
+    >.top {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #333;
+
+        h3 {
+            background-color: rgb(255, 255, 255);
+            padding: 14px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font: 500 1rem "Work Sans";
+        }
+    }
+
+    >.bottom {
+        height: 80%;
+        width: 100%;
+        border: 2px solid #333;
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "education": [
+        {
+            "title": "SSC (Matriculation)",
+            "boad": "FBISE Islamabad",
+            "subjects": "Science Group",
+            "percentage": 76,
+            "graduated": 2018
+        },
+        {
+            "title": "F.Sc (Pre-Engineering)",
+            "boad": "BISE Abbottabad",
+            "subjects": "Maths, Physics",
+            "percentage": 62,
+            "graduated": 2020
+        },
+        {
+            "title": "Bachlor in Computer Sciences",
+            "boad": "University of Haripur",
+            "subjects": "Computer Science",
+            "percentage": 3.54,
+            "graduated": 2024
+        }
+    ]
+}
