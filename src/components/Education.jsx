@@ -28,11 +28,13 @@ const Education = () => {
 
 const EducationTimeLine = ({ heading, board, subjects, marks, graduation, index }) => (
     <div className={`timeLineItem ${index % 2 === 0 ? "leftTimeLine" : "rightTimeLine"}`}>
-        <h2>{heading}</h2>
-        <p>{board}</p>
-        <p>{subjects}</p>
-        <p>{marks}</p>
-        <p>{graduation}</p>
+        <div>
+            <h2>{heading}</h2>
+            <p>{board}</p>
+            <p>{subjects}</p>
+            <p>{marks}%</p>
+            <p>{graduation}</p>
+        </div>
     </div>
 );
 
