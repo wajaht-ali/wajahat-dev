@@ -6,7 +6,7 @@ import { TbBrandCpp } from "react-icons/tb";
 const Portfolio = () => {
 
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id="portfolio">
       <main>
         <div className="skills box">
           <h2>My Skills</h2>

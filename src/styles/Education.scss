@@ -3,7 +3,7 @@
 .education {
     height: 120vh;
     width: 100%;
-    border: 2px solid #333;
+    // border: 2px solid #333;
     background: $bg-gradient-primary;
 
     >.top {
@@ -25,9 +25,10 @@
     }
 
     >.bottom {
-        height: 60%;
+        height: 70%;
         width: 100%;
         position: relative;
+        // top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -4,7 +4,7 @@ import "../styles/Education.scss";
 
 const Education = () => {
     return (
-        <div className='education'>
+        <div className='education' id='education'>
             <div className="top">
                 <h3>My Education</h3>
             </div>
@@ -18,7 +18,6 @@ const Education = () => {
                         graduation={item.graduated}
                         index={index}
                         key={item.title}
-
                     />
                 ))}
             </div>

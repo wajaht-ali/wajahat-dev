@@ -11,11 +11,12 @@
     top: 0;
     z-index: 100;
     transition: background-color .3s ease-in-out;
-    // border: 2px solid #333;
+    border: 2px solid #333;
 
     >.logo {
         color: white;
         background-color: #333;
+        border: 1px solid #333;
 
         &:hover {
             background-color: #fff;
@@ -35,6 +36,7 @@
 
     >.nav-items {
         width: 50%;
+        border: 2px solid #333;
 
         ul {
             height: 100%;
@@ -46,16 +48,22 @@
             li {
                 font: bold .8rem "Inter";
                 text-transform: uppercase;
-                padding: 8px 5px;
-                color: white;
-                transition: border-bottom .3s all ease-in-out;
-                transform-origin: left;
 
-                &:hover {
-                    border-bottom: 2px solid #fff;
-                    color: #333;
-                    cursor: pointer;
+                a {
+                    padding: 8px 5px;
+                    color: white;
+
+                    &:hover {
+                        border-bottom: 2px solid #fff;
+                        color: #fff;
+                    }
                 }
+
+                // &:hover {
+                //     cursor: pointer;
+                //     border-bottom: 2px solid #fff;
+                
+                // }
             }
         }
     }
@@ -65,12 +73,13 @@
     background-color: #333;
 
     >.logo {
+
         // background-color: #fff;
         h2 {
             color: #fff;
         }
 
-        &:hover h2{
+        &:hover h2 {
             color: $primary-color;
         }
     }

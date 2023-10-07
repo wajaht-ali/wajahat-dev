@@ -8,7 +8,7 @@ import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaInstagramSquare } from "
 
 const Home = () => {
 return (
-<div className='home'>
+<div className='home' id="home">
 <div className="hero">
 <div className="left">
     <img src={img} alt="profileImage" />
@@ -48,26 +48,6 @@ return (
             Haripur, 22620, K.P.K, Pakistan.
         </address>
     </div>
-
-    {/* <div className="social">
-        <ul>
-            <li>
-                <Link><FaGithubSquare /></Link>
-            </li>
-            <li>
-                <Link to="https://www.google.com" > <FaLinkedin /> </Link>
-            </li>
-            <li>
-                <Link> <FaTwitterSquare /> </Link>
-            </li>
-            <li>
-                <Link> <FaInstagramSquare /> </Link>
-            </li>
-        </ul>
-    </div> */}
-
-
-
 </div>
 </div>
 </div>
