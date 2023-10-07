@@ -1,8 +1,9 @@
 import "../styles/Portfolio.scss";
-import { FaHtml5, FaCss3, FaReact, FaGithubSquare } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaReact, FaGithubSquare, FaSass } from "react-icons/fa"
 import { SiJavascript, SiTypescript } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { TbBrandCpp } from "react-icons/tb";
+
 const Portfolio = () => {
 
   return (
@@ -14,6 +15,7 @@ const Portfolio = () => {
             < TbBrandCpp />
             < FaHtml5 />
             < FaCss3 />
+            < FaSass />
             < SiJavascript />
             < FaReact />
             < SiTypescript />

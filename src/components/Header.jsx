@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className='header' id='head'>
             <div className="logo">
-                <h2>Wajahat</h2>
+                <h2><a href="#home">Wajahat</a></h2>
             </div>
             <div className="nav-items">
                 <ul>

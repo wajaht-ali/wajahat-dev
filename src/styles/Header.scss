@@ -11,32 +11,33 @@
     top: 0;
     z-index: 100;
     transition: background-color .3s ease-in-out;
-    border: 2px solid #333;
+    // border: 2px solid #333;
 
     >.logo {
         color: white;
+        height: 60%;
+        display: flex;
+        align-items: center;
         background-color: #333;
-        border: 1px solid #333;
+        // border: 1px solid #333;
 
-        &:hover {
-            background-color: #fff;
-            color: #333;
-        }
-
-        h2 {
-            padding: 15px;
+        h2 a {
+            padding: 10px 5px;
+            color: #fff;
             font: bold 2rem "Inter";
             text-transform: uppercase;
-        }
 
-        &:hover {
-            cursor: pointer;
+            &:hover {
+                background-color: #fff;
+                color: #333;
+                cursor: pointer;
+            }
         }
     }
 
     >.nav-items {
         width: 50%;
-        border: 2px solid #333;
+        // border: 2px solid #333;
 
         ul {
             height: 100%;
@@ -62,7 +63,7 @@
                 // &:hover {
                 //     cursor: pointer;
                 //     border-bottom: 2px solid #fff;
-                
+
                 // }
             }
         }
