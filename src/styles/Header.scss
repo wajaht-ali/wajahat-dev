@@ -18,19 +18,22 @@
         height: 60%;
         display: flex;
         align-items: center;
+        border-radius: 6px;
         background-color: #333;
         // border: 1px solid #333;
 
         h2 a {
-            padding: 10px 5px;
+            padding: 10px 8px;
             color: #fff;
             font: bold 2rem "Inter";
             text-transform: uppercase;
+            transition: .3s ease-in-out;
 
             &:hover {
                 background-color: #fff;
                 color: #333;
                 cursor: pointer;
+                border-radius: 6px;
             }
         }
     }

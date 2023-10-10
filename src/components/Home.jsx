@@ -15,6 +15,7 @@ return (
         <img src={img} alt="profileImage" />
     </div>
     <div className="right">
+        <h4>Hello Everyone, I'm</h4>
         <h1>Wajahat  Ali</h1>
 
         <div className="typeWriter">

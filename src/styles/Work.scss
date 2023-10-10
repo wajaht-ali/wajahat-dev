@@ -1,6 +1,85 @@
 @import "../styles/Utilities.scss";
 
 .myWork {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
+    border: 2px solid #333;
+
+    >.head {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 2px solid #333;
+
+        h3 {
+            width: 10%;
+            text-align: center;
+            background-color: rgb(243, 240, 240);
+            text-transform: uppercase;
+            padding: 14px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font: 500 1rem "Work Sans";
+        }
+    }
+
+    >.bottom {
+        height: 80%;
+        width: 100%;
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+.experience {
+    height: 48%;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #333;
+
+    img {
+        height: 60%;
+        width: 100%;
+        border: 1px solid #333;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font: 400 1rem "Inter";
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        // justify-content: ;
+        gap: 1rem;
+        align-items: center;
+
+        a {
+            width: 25%;
+            text-align: center;
+            // color: #333;
+            padding: 5px 6px;        box-shadow: 1px 1px 2px #8c8c8c;
+            font: 400 1rem "Inter";
+            border-radius: 3px;
+            background: whitesmoke;
+
+            &:hover {
+                cursor: pointer;
+                color: #fff;
+                background: $bg-gradient;
+            }
+        }
+    }
 }

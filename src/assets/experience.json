@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        },
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        },
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        },
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        },
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        },
+        {
+            "imgUrl": "/src/assets/profile_img.jpg",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "madeWithLang": "HTML CSS JS"
+        }
+    ]
+}
