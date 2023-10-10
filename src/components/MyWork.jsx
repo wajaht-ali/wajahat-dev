@@ -1,4 +1,5 @@
 import "../styles/Work.scss";
+import profile from '../assets/profile_img.jpg';
 import experience from "../assets/experience.json"
 
 const MyWork = () => {
@@ -28,15 +29,13 @@ const MyWork = () => {
 
 const Work = ({ img, name, demo, gitHub, about }) => (
   <div className="experience">
-    <div className="top">
-      <img src={img} alt="projImage" />
-    </div>
+    <img src={profile} alt="projImage" />
     <div className="bottom">
       <h2>{name}</h2>
       <p>{about}</p>
       <div className="links">
-        <a href={demo}>Demo</a>
-        <a href={gitHub}>Code</a>
+        <a href={demo}>View Demo</a>
+        <a href={gitHub}>Show Code</a>
       </div>
     </div>
   </div>
