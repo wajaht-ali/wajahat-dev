@@ -1,7 +1,7 @@
 @import "../styles/Utilities.scss";
 
 .myWork {
-    height: 120vh;
+    height: 130vh;
     width: 100%;
     border: 2px solid #333;
 
@@ -40,45 +40,54 @@
 }
 
 .experience {
-    height: 48%;
+    height: 50%;
     width: 25%;
-    padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid #333;
+    border-radius: 5px;
 
-    img {
-        height: 60%;
+    >.top {
+        height: 100%;
         width: 100%;
-        border: 1px solid #333;
+        padding: 0;
+
+        img {
+            height: 50%;
+            width: 100%;
+            border: 1px solid #333;
+        }
     }
 
-    h3 {
-        text-transform: uppercase;
-        font: 400 1rem "Inter";
-    }
-
-    .links {
+    >.bottom {
+        padding: 5px;
+        height: 100%;
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        // justify-content: ;
-        gap: 1rem;
-        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
 
-        a {
-            width: 25%;
-            text-align: center;
-            // color: #333;
-            padding: 5px 6px;        box-shadow: 1px 1px 2px #8c8c8c;
+        h3 {
+            text-transform: uppercase;
+            font: 600 1rem "Roboto";
+        }
+
+        p {
+            text-align: justify;
             font: 400 1rem "Inter";
-            border-radius: 3px;
-            background: whitesmoke;
+        }
 
-            &:hover {
-                cursor: pointer;
-                color: #fff;
-                background: $bg-gradient;
+        .links {
+            display: flex;
+            flex-direction: row;
+            // justify-content: ;
+            gap: 1rem;
+            align-items: center;
+
+            a {
+                font: 500 1rem "Roboto";
             }
         }
     }

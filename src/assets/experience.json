@@ -1,46 +1,46 @@
 {
     "projects": [
         {
-            "imgUrl": "/src/assets/profile_img.jpg",
+            "imgUrl": "../assets/title_img_2.png",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
         },
         {
             "imgUrl": "/src/assets/profile_img.jpg",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
+        },
+        {
+            "imgUrl": "https://r.search.yahoo.com/_ylt=AwrFeMysCSVlPkQKG.RXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Nj/RV=2/RE=1696954924/RO=10/RU=https%3a%2f%2fwww.theverge.com%2f2016%2f11%2f2%2f13490774%2fapple-macbook-pro-review-2016-13-inch-laptop/RK=2/RS=9csJdsh70twCoOduFvy.N5MMj.A-",
+            "title": "Project 1",
+            "demoUrl": "https://google.com",
+            "gitRepoUrl": "https://github.com",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
         },
         {
             "imgUrl": "/src/assets/profile_img.jpg",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
         },
         {
             "imgUrl": "/src/assets/profile_img.jpg",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
         },
         {
             "imgUrl": "/src/assets/profile_img.jpg",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
-        },
-        {
-            "imgUrl": "/src/assets/profile_img.jpg",
-            "title": "Project 1",
-            "demoUrl": "https://google.com",
-            "gitRepoUrl": "https://github.com",
-            "madeWithLang": "HTML CSS JS"
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident minima error ad repellat dolore mollitia molestiae!"
         }
     ]
 }

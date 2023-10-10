@@ -15,7 +15,7 @@ const MyWork = () => {
               name={item.title}
               demo={item.demoUrl}
               gitHub={item.gitRepoUrl}
-              language={item.madeWithLang}
+              about={item.description}
               index={index}
               key={item.title}
             />
@@ -26,14 +26,18 @@ const MyWork = () => {
   )
 }
 
-const Work = ({ img, name, demo, gitHub, language }) => (
+const Work = ({ img, name, demo, gitHub, about }) => (
   <div className="experience">
-    <img src={img} alt="projImage" />
-    <h3>{name}</h3>
-    <h3>{language}</h3>
-    <div className="links">
-      <a href={demo}>Demo</a>
-      <a href={gitHub}>Code</a>
+    <div className="top">
+      <img src={img} alt="projImage" />
+    </div>
+    <div className="bottom">
+      <h2>{name}</h2>
+      <p>{about}</p>
+      <div className="links">
+        <a href={demo}>Demo</a>
+        <a href={gitHub}>Code</a>
+      </div>
     </div>
   </div>
 )
