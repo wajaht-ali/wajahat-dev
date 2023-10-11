@@ -19,9 +19,6 @@
         // border: 2px solid #333;
 
         .box {
-            h2 {
-                font: bold 2rem "Open Sans";
-            }
 
             display: flex;
             flex-direction: column;
@@ -31,8 +28,13 @@
             border-radius: 8px;
             height: 65%;
             width: 45%;
+            // z-index: 1;
             background-color: rgb(255, 249, 249);
             box-shadow: 2px 2px 15px #b7b1b1;
+
+            h2 {
+                font: bold 2rem "Open Sans";
+            }
         }
 
         .about {
