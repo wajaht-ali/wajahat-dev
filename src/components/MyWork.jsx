@@ -1,6 +1,7 @@
 import "../styles/Work.scss";
-import profile from '../assets/profile_img.jpg';
-import experience from "../assets/experience.json"
+// import profile from '../assets/profile_img.jpg';
+import prodImg from "../assets/th.jpg";
+import experience from "../assets/experience.json";
 
 const MyWork = () => {
   return (
@@ -29,7 +30,7 @@ const MyWork = () => {
 
 const Work = ({ img, name, demo, gitHub, about }) => (
   <div className="experience">
-    <img src={profile} alt="projImage" />
+    <img src={prodImg} alt="projImage" />
     <div className="bottom">
       <h2>{name}</h2>
       <p>{about}</p>
