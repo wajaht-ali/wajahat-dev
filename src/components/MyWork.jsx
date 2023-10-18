@@ -6,38 +6,41 @@ import experience from "../assets/experience.json";
 const MyWork = () => {
   return (
     <div className='myWork' id="work">
-      <div className="head">
-        <h3>My Work</h3>
+      <div className="top">
+        <h3>My Education</h3>
       </div>
+
       <div className="bottom">
-        {
-          experience.projects.map((item, index) => (
-            <Work
-              img={item.imgUrl}
-              name={item.title}
-              demo={item.demoUrl}
-              gitHub={item.gitRepoUrl}
-              about={item.description}
-              index={index}
-              key={item.title}
-            />
-          ))
-        }
+        <div className="card">
+          {
+            experience.projects.map((item, index) => (
+              <WorkData
+                pic={item.imgUrl}
+                name={item.title}
+                details={item.description}
+                demo={item.demoUrl}
+                code={item.gitRepoUrl}
+                key={item.index}
+                index={index}
+              />
+            ))
+          }
+        </div>
       </div>
     </div>
   )
 }
 
-const Work = ({ img, name, demo, gitHub, about }) => (
-  <div className="experience">
-    <img src={prodImg} alt="projImage" />
+const WorkData = ({ pic, name, demo, code, details }) => (
+  <div className="workExperience">
+    <div className="top">
+      <img src={pic} alt="myImg" />
+    </div>
     <div className="bottom">
       <h2>{name}</h2>
-      <p>{about}</p>
-      <div className="links">
-        <a href={demo}>View Demo</a>
-        <a href={gitHub}>Show Code</a>
-      </div>
+      <p>{details}</p>
+      <a href={demo}>Demo</a>
+      <a href={code}>Code</a>
     </div>
   </div>
 )

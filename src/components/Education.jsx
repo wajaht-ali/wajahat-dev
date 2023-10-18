@@ -31,7 +31,7 @@ const EducationTimeLine = ({ heading, board, subjects, marks, graduation, index 
             <h2>{heading}</h2>
             <p>{board}</p>
             <p>{subjects}</p>
-            <p>{marks}%</p>
+            <p>{marks}</p>
             <p>{graduation}</p>
         </div>
     </div>

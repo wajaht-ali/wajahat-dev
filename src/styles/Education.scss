@@ -3,7 +3,6 @@
 .education {
     height: 120vh;
     width: 100%;
-    // border: 2px solid #333;
     background: $bg-gradient-primary;
 
     >.top {
@@ -13,7 +12,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // border: 2px solid #333;
 
         h3 {
             background-color: rgb(255, 255, 255);
@@ -28,11 +26,9 @@
         height: 70%;
         width: 100%;
         position: relative;
-        // top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        // border: 2px solid #333;
 
         &::before {
             content: "";
@@ -50,8 +46,6 @@
         position: relative;
         padding: 1rem 3rem;
         font: 500 1rem "Inter";
-        // background-color: whitesmoke;
-        // border: 2px solid #333;
 
         &::after {
             content: "";
@@ -91,5 +85,55 @@
             left: -16px;
         }
     }
+}
 
+@media screen and (max-width: 768px) {
+    .education {
+        .bottom {
+            height: 70%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        .timeLineItem {
+            width: 100%;
+            padding: 1rem;
+            font: 500 1rem "Inter";
+
+            &::after {
+                display: none;
+            }
+
+            >div {
+                padding: 20px 30px;
+                border: 6px;
+                background-color: whitesmoke;
+                color: #333;
+                border-radius: 6px;
+                box-shadow: 2px 2px 15px #b7b1b1;
+            }
+        }
+
+        .rightTimeLine {
+            left: 0;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .leftTimeLine {
+            left: 0%;
+
+            ::after {
+                display: none;
+            }
+        }
+    }
 }

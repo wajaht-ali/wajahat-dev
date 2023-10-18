@@ -1,6 +1,8 @@
 @import "../styles/Utilities.scss";
 
 .App {
+    height: 100%;
+    width: 100%;
     position: relative;
     .main {
         background: $bg-gradient-primary;

@@ -5,7 +5,6 @@ import { MdOutlineLocationCity } from "react-icons/md"
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
-import { ImProfile } from "react-icons/im"
 
 const Home = () => {
 return (
@@ -34,9 +33,13 @@ return (
 
         <div className="social">
             <Link to={"https://github.com/wajaht-ali/"} target="_blank">< FaGithubSquare /></Link>
+
             <Link to={"https://linkedin.com/in/wajhat-ali/"} target="_blank">< FaLinkedin /></Link>
+
             <Link to={"https://twitter.com/ChWajahtali"} target="_blank">< FaTwitterSquare /></Link>
+
             <Link to={"https://www.instagram.com/wajaht_alee/"} target="_blank">< FaInstagramSquare /></Link>
+
             {/* <Link to={"https://www.instagram.com/wajaht_alee/"} target="_blank"><abbr title="My Resume">< ImProfile /></abbr></Link> */}
         </div>
 
