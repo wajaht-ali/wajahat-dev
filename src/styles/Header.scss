@@ -140,6 +140,10 @@
         .isMobile {
             display: block;
 
+            .nav-items {
+                display: block;
+            }
+
             svg {
                 font-size: 1.5rem;
                 cursor: pointer;

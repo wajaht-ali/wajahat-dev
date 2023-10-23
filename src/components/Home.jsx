@@ -1,7 +1,7 @@
 import "../styles/Home.scss";
 import img from "../assets/profile_img.jpg";
 import TypeWriter from "typewriter-effect";
-import { MdOutlineLocationCity } from "react-icons/md"
+import { MdOutlineLocationCity } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";

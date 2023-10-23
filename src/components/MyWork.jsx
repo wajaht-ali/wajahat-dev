@@ -7,7 +7,7 @@ const MyWork = () => {
   return (
     <div className='myWork' id="work">
       <div className="top">
-        <h3>My Education</h3>
+        <h3>My Projects</h3>
       </div>
 
       <div className="bottom">
@@ -15,7 +15,7 @@ const MyWork = () => {
           {
             experience.projects.map((item, index) => (
               <WorkData
-                pic={item.imgUrl}
+                // pic={item.imgUrl}
                 name={item.title}
                 details={item.description}
                 demo={item.demoUrl}
@@ -34,13 +34,15 @@ const MyWork = () => {
 const WorkData = ({ pic, name, demo, code, details }) => (
   <div className="workExperience">
     <div className="top">
-      <img src={pic} alt="myImg" />
+      <img src={prodImg} alt="myImg" />
     </div>
     <div className="bottom">
       <h2>{name}</h2>
       <p>{details}</p>
-      <a href={demo}>Demo</a>
-      <a href={code}>Code</a>
+      <span>
+        <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
+        <a href={code} target="_blank" rel="noopener noreferrer">Code</a>
+      </span>
     </div>
   </div>
 )
