@@ -26,7 +26,7 @@ const Header = () => {
             <div className="logo">
                 <h2><a href="#home">Wajahat</a></h2>
             </div>
-            <div className={`nav-items ${isMobile ? 'openMenu' : ''}`}>
+            <div className={`nav-items ${ isMobile ? 'openMenu' : ''}`}>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
