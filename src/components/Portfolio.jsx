@@ -26,7 +26,19 @@ const Portfolio = () => {
 
         <div className="about box">
           <h2>About Me</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quasi praesentium corrupti! Illum voluptates commodi veniam laboriosam minima! Alias maxime accusamus, odit enim itaque quis voluptates culpa voluptatibus suscipit dignissimos?</p>
+          <p>As a front-end web developer, I am
+            passionate about creating visually
+            appealing websites that offer an
+            exceptional user experience. I am
+            skillful in HTML, CSS, and JavaScript,
+            with a good understanding of the
+            principles of responsive web design. I
+            have experience with modern
+            frameworks like Reactjs. With my
+            excellent progressive skills and
+            attention to detail, I am committed to
+            high-quality work that exceeds client
+            expectations</p>
         </div>
 
       </main>

@@ -9,7 +9,18 @@ const Footer = () => {
             <div className="top">
                 <div className="left box">
                     <h2>About Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor, accusantium natus, provident assumenda explicabo placeat nesciunt fuga beatae deleniti consectetur. Totam perferendis sit labore adipisci eum odit consequuntur numquam.</p>
+                    <p>As a front-end web developer, I am
+                        passionate about creating visually
+                        appealing websites that offer an
+                        exceptional user experience. I am
+                        skillful in HTML, CSS, and JavaScript,
+                        with a good understanding of the
+                        principles of responsive web design. I
+                        have experience with modern
+                        frameworks like Reactjs. With my
+                        excellent progressive skills and
+                        attention to detail, I am committed to
+                        high-quality work.</p>
                 </div>
 
                 <div className="right box">
