@@ -5,9 +5,9 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Education from "./components/Education";
-import MyWork from "./components/MyWork";
+// import MyWork from "./components/MyWork";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         </div>
         <Portfolio />
         <Education />
-        <MyWork />
+        {/* <MyWork /> */}
         <Footer />
       </BrowserRouter>
     </div>
