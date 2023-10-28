@@ -1,6 +1,6 @@
 import "../styles/Work.scss";
 // import profile from '../assets/profile_img.jpg';
-import prodImg from "../assets/th.jpg";
+// import prodImg from "../assets/th.jpg";
 import experience from "../assets/experience.json";
 
 const MyWork = () => {
@@ -15,7 +15,7 @@ const MyWork = () => {
           {
             experience.projects.map((item, index) => (
               <WorkData
-                // pic={item.imgUrl}
+                pic={item.imgUrl}
                 name={item.title}
                 details={item.description}
                 demo={item.demoUrl}
@@ -31,10 +31,10 @@ const MyWork = () => {
   )
 }
 
-const WorkData = ({ pic, name, demo, code, details }) => (
+export const WorkData = ({ pic, name, demo, code, details }) => (
   <div className="workExperience">
     <div className="top">
-      <img src={prodImg} alt="myImg" />
+      <img src={pic} alt="myImg" />
     </div>
     <div className="bottom">
       <h2>{name}</h2>

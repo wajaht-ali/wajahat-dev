@@ -1,43 +1,43 @@
 {
     "projects": [
         {
-            "imgUrl": "../assets/title_img_2.png",
+            "imgUrl": "./th.jpg",
             "title": "Project 1",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
         },
         {
-            "imgUrl": "../assets/title_img_2.png",
-            "title": "Project 1",
+            "imgUrl": "./th.jpg",
+            "title": "Project 2",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
         },
         {
-            "imgUrl": "../assets/title_img_2.png",
-            "title": "Project 1",
+            "imgUrl": "./th.jpg",
+            "title": "Project 3",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
         },
         {
-            "imgUrl": "../assets/title_img_2.png",
-            "title": "Project 1",
+            "imgUrl": "./th.jpg",
+            "title": "Project 4",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
         },
         {
-            "imgUrl": "../assets/title_img_2.png",
-            "title": "Project 1",
+            "imgUrl": "./th.jpg",
+            "title": "Project 5",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
         },
         {
-            "imgUrl": "../assets/title_img_2.png",
-            "title": "Project 1",
+            "imgUrl": "./th.jpg",
+            "title": "Project 6",
             "demoUrl": "https://google.com",
             "gitRepoUrl": "https://github.com",
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis ex aliquid provident!"
