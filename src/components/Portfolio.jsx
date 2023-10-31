@@ -37,8 +37,7 @@ const Portfolio = () => {
             frameworks like Reactjs. With my
             excellent progressive skills and
             attention to detail, I am committed to
-            high-quality work that exceeds client
-            expectations</p>
+            high-quality work that exceeds client limits.</p>
         </div>
 
       </main>
