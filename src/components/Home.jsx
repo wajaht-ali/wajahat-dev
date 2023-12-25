@@ -1,5 +1,5 @@
 import "../styles/Home.scss";
-import img from "../assets/profile_img.jpg";
+import img from "../assets/imgAvt.jpeg";
 import TypeWriter from "typewriter-effect";
 import { MdOutlineLocationCity } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
